@@ -1,6 +1,8 @@
 # YSActionsheet
 # 效果图
-![实际效果图](http://upload-images.jianshu.io/upload_images/6067780-215955ce2df466af.gif)
+<p align="left">
+<img src="./YSActionsheetDemo/demo.gif" width=40%">
+</p>
 
 # 使用方法：
 - ### block
