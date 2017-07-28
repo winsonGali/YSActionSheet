@@ -23,7 +23,6 @@
 
 
 - (IBAction)showYSActionSheet:(id)sender {
-    
     YSActionSheet *actionSheet = [[YSActionSheet alloc] initWithButtonTitles:@[@"拍照", @"从相册选取"] cancelButtonTitle:@"取消"];
     actionSheet.selectBlock = ^(NSInteger selectIndex, NSString *selectStr) {
         if (selectIndex == 0) {
@@ -37,6 +36,7 @@
     };
     [actionSheet show];
 }
+
 
 
 
