@@ -22,12 +22,6 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
 - (IBAction)showYSActionSheet:(id)sender {
     
     YSActionSheet *actionSheet = [[YSActionSheet alloc] initWithButtonTitles:@[@"拍照", @"从相册选取"] cancelButtonTitle:@"取消"];
